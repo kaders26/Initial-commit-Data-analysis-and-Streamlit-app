@@ -27,7 +27,7 @@ Bu uygulama, Superstore satış verileri üzerinde keşifsel veri analizi yapara
 # Veri Yükleme
 @st.cache_data
 def load_data():
-    df = pd.read_csv("archive/Sample - Superstore.csv", encoding='ISO-8859-1')   # Yolu doğru şekilde yazmayı unutma!
+    df = pd.read_csv("archive/Sample - Superstore.csv", encoding='ISO-8859-1')   
     df['Order Date'] = pd.to_datetime(df['Order Date'])
     return df
 
