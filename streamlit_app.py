@@ -10,6 +10,7 @@ import plotly.express as px
 import streamlit as st
 import calendar
 import pickle
+import requests
 
 
 # Sayfa ayarları
@@ -33,14 +34,17 @@ def load_data():
 df = load_data()
 
 # Modeli yükle
+
 @st.cache_resource
 def load_model():
-    with open('model.pkl', 'rb') as file:
-        loaded_model = pickle.load(file)
-    return loaded_model
+    file_id = '1-KWoj5mujQdBqt4b1I44dDhaqs_KmsCy'  # Dosya ID'in doğru
+    url = f'https://drive.google.com/uc?export=download&id={file_id}'
+    
+    response = requests.get(url)
+    model = pickle.loads(response.content)
+    return model
 
 model = load_model()
-
 
 # Sidebar Seçenekleri
 options = st.sidebar.radio(
