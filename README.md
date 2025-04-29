@@ -13,17 +13,6 @@ The Superstore dataset is explored and processed in the following steps:
 
 An interactive web app is created using Streamlit to visualize data and make predictions.
 
-## ✅ Requirements
-
-```txt
-streamlit
-pandas
-seaborn
-matplotlib
-plotly
-scikit-learn
-numpy
-requests
 
 ## 🌐 Live Demo
 You can explore the app via the live Streamlit link below:
