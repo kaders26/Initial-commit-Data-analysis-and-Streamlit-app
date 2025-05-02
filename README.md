@@ -29,7 +29,7 @@ This project analyzes Superstore sales data across the United States using data 
 You can download and explore the report locally using the `superstore.pbix` file included in this repository.
 
 📸 **Dashboard Preview**  
-![Dashboard Preview](assets/powerbi_preview.png)
+superstore_powerbi.png
 
 
 
