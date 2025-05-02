@@ -18,6 +18,20 @@ An interactive web app is created using Streamlit to visualize data and make pre
 You can explore the app via the live Streamlit link below:
 🔗 https://initial-commit-data-analysis-and-app-app-3fn8zszk9b7pzxrveggmz.streamlit.app/
 
+## 📊 Power BI Dashboard – Superstore Sales Analysis
+
+This project analyzes Superstore sales data across the United States using data cleaning, exploratory data analysis (EDA), feature engineering, and machine learning models. The insights are visualized through an interactive Power BI dashboard.
+
+🔗 **Interactive Dashboard**  
+👉 https://app.powerbi.com/links/gR6Uv4e45n?ctid=97901967-d3cb-46d5-a87e-d476a38d6b3e&pbi_source=linkShare
+
+📁 **Power BI File (.pbix)**  
+You can download and explore the report locally using the `superstore.pbix` file included in this repository.
+
+📸 **Dashboard Preview**  
+![Dashboard Preview](assets/powerbi_preview.png)
+
+
 
 ## What's Included in the App?
 Interactive visualizations of the Superstore dataset
